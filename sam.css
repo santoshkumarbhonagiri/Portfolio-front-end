@@ -5,18 +5,17 @@
 }
 
 body{
-    /* background: #456 url(./images/abstract-business-code-270348.jpg) no-repeat; */
+    /* background: #455 url(./images/abstract-business-code-270348.jpg) no-repeat; */
     font-family: Georgia, 'Times New Roman', Times, serif;
     bottom: 0;
-    /* overflow-x: hidden; */
-    /* margin-right: -10px; */
+
 }
 /* Navbar styling */
 .navbar{
     width: 100%;
     /* height: 100px; */
     height: auto;
-    background-color: #01247;
+    background-color: #9E1625;
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -62,7 +61,7 @@ body{
 }
 
 .navbar .nav .nav-item li a{
-    text-decoration: inherit;
+    text-decoration: underline;
     line-height: 60px;
     height: 70px;
     font-size: 1.2em;
@@ -71,7 +70,7 @@ body{
     border-radius: 30px 0px 30px 0px;
 }
 
-.navbar .nav .nav-item li a:hover{
+.navbar .nav .nav-item li a:{
     background: tomato;
     color: #772525;
     font-size: 1.1em;
@@ -97,19 +96,20 @@ body{
     font-size: 1.0em;
     /* margin-left: 5px; */
 }
-/* Navbar styling end */
+/* Navbar styling end *
 
 
 /* intro part */
 
 .container{
-    background-image:url(images/robot.jpg);
+
     width: 100%;
     height: auto;
     /* border: 4px double black; */
-    /* background: #ddd; */
-    padding: 10%;
-    display:flex;
+
+    background-image:url(images/robot.jpg);
+display:inherit;
+padding: 5%;
     order:1;
 }
 
@@ -120,13 +120,13 @@ body{
 
 .container .pic img{
 
-    height: 300px;
-    border-radius: 25px;
+    height: 125px;
+    border-radius: 30px;
 
 }
 
 .container .intro{
-    width: 90%;
+    width: 100%;
     /* padding-right: 20px; */
     text-align: justify;
     padding-top: 30px;
@@ -136,20 +136,21 @@ body{
 }
 
 .container .intro ul li{
-    font-family: 'Goudy Bookletter 1911', serif;
+    font-family: "Times New Roman", serif;
     color: #e5f92a;
 }
 
 
-.container .intro span{
+.container .intro p{
     font-weight: bold;
     font-size: 1em;
+    color:#e5f92a;
 }
 
 .container2{
     width: 100%;
     height:auto;
-    padding: 2%;
+    padding: 5%;
     /* padding: 10px 0px 10px 0px; */
     background: #99bd57;
     order: 2;
@@ -191,8 +192,8 @@ body{
 }
 
 .container2 .wrapper .s img{
-    border: 5px inset #eee;
-    padding: 0;
+    border: 5px ridge;
+    padding: 0px;
     margin: 0;
     width: 100%;
     border-radius: 50px 0 50px 0px;
@@ -220,7 +221,7 @@ body{
 .foo{
     width: 100%;
     height: auto;
-    background: #333;
+    background: #444;
     bottom: 0;
     order: 3;
     text-align: center;
@@ -234,7 +235,6 @@ body{
 }
 
 .foo .git{
-    background: #fff;
     border-radius: 100%;
 }
 
